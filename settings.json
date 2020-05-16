@@ -1,0 +1,21 @@
+{
+    "workbench.activityBar.visible": false,
+    "workbench.sideBar.location": "right",
+
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "500",
+    "editor.mouseWheelZoom": true,
+    "editor.overviewRulerBorder": false,
+    "editor.scrollbar.vertical": "hidden", 
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    
+    "window.titleBarStyle": "custom",
+    "window.title": "${dirty}${rootName}${separator}${activeEditorMedium}",
+    "window.zoomLevel": 0,
+
+    "zenMode.centerLayout": true,
+    "zenMode.hideActivityBar": true,
+
+    "javascript.updateImportsOnFileMove.enabled": "always"
+}
