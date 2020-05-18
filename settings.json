@@ -1,4 +1,5 @@
 {
+    "workbench.colorTheme": "Valenca",
     "workbench.activityBar.visible": false,
     "workbench.sideBar.location": "right",
 
@@ -7,9 +8,15 @@
     "editor.fontWeight": "500",
     "editor.mouseWheelZoom": true,
     "editor.overviewRulerBorder": false,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorWidth": 2,
     "editor.scrollbar.vertical": "hidden", 
     "editor.scrollbar.verticalScrollbarSize": 0,
     
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorWidth": 2,
+
     "window.titleBarStyle": "custom",
     "window.title": "${dirty}${rootName}${separator}${activeEditorMedium}",
     "window.zoomLevel": 0,
