@@ -24,5 +24,9 @@
     "zenMode.centerLayout": true,
     "zenMode.hideActivityBar": true,
 
-    "javascript.updateImportsOnFileMove.enabled": "always"
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    
+    "[csharp]": {
+        "editor.renderIndentGuides": false
+    }
 }
