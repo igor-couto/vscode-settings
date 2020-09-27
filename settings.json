@@ -3,7 +3,10 @@
     "workbench.activityBar.visible": false,
     "workbench.sideBar.location": "right",
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.tree.indent": 20,
+    
     "material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.folders.color": "#FBC02D",
 
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
@@ -31,5 +34,16 @@
 
     "[csharp]": {
         "editor.renderIndentGuides": false
-    }
+    },
+
+    "files.exclude": {
+        "**/obj":true,
+        "**/node_modules":true,
+        "**/.vs": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
 }
