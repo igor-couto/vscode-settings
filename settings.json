@@ -33,7 +33,7 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
 
     "[csharp]": {
-        "editor.renderIndentGuides": false
+        "editor.renderIndentGuides": false,
     },
 
     "files.exclude": {
@@ -46,4 +46,7 @@
         "**/CVS": true,
         "**/.DS_Store": true
     },
+
+    "explorer.decorations.colors": true,
+    "explorer.decorations.badges": false
 }
