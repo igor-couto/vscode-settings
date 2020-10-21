@@ -48,5 +48,9 @@
     },
 
     "explorer.decorations.colors": true,
-    "explorer.decorations.badges": false
+    "explorer.decorations.badges": false,
+    
+    "terminal.external.windowsExec": "C:\\Program Files\\Cmder\\Cmder.exe",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\cmd.exe",
+    "terminal.integrated.shellArgs.windows" : ["/K","C:\\Program Files\\Cmder\\vendor\\init.bat"]
 }
