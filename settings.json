@@ -4,9 +4,8 @@
     "workbench.sideBar.location": "right",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.tree.indent": 20,
-    
-    "material-icon-theme.folders.theme": "classic",
-    "material-icon-theme.folders.color": "#FBC02D",
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
 
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
@@ -18,6 +17,9 @@
     "editor.scrollbar.vertical": "hidden", 
     "editor.scrollbar.verticalScrollbarSize": 0,
     "editor.renderControlCharacters": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
     
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
@@ -29,6 +31,9 @@
 
     "zenMode.centerLayout": true,
     "zenMode.hideActivityBar": true,
+
+    "material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.folders.color": "#FBC02D",
 
     "javascript.updateImportsOnFileMove.enabled": "always",
 
@@ -49,7 +54,7 @@
 
     "explorer.decorations.colors": true,
     "explorer.decorations.badges": false,
-    
+
     "terminal.external.windowsExec": "C:\\Program Files\\Cmder\\Cmder.exe",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\cmd.exe",
     "terminal.integrated.shellArgs.windows" : ["/K","C:\\Program Files\\Cmder\\vendor\\init.bat"]
