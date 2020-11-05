@@ -6,6 +6,9 @@
     "workbench.tree.indent": 20,
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": false,
+    
+    "material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.folders.color": "#FBC02D",
 
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
@@ -20,25 +23,28 @@
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
     "editor.detectIndentation": false,
+
+    "breadcrumbs.enabled": false,
+    "breadcrumbs.symbolPath": "on",
+
+    "files.restoreUndoStack": true,
     
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorWidth": 2,
 
     "window.titleBarStyle": "custom",
+    "window.titleSeparator": "  —  ",
     "window.title": "${dirty}${rootName}${separator}${activeEditorMedium}",
     "window.zoomLevel": 0,
 
     "zenMode.centerLayout": true,
     "zenMode.hideActivityBar": true,
 
-    "material-icon-theme.folders.theme": "classic",
-    "material-icon-theme.folders.color": "#FBC02D",
-
     "javascript.updateImportsOnFileMove.enabled": "always",
 
     "[csharp]": {
-        "editor.renderIndentGuides": false,
+        "editor.renderIndentGuides": false
     },
 
     "files.exclude": {
@@ -57,5 +63,11 @@
 
     "terminal.external.windowsExec": "C:\\Program Files\\Cmder\\Cmder.exe",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\cmd.exe",
-    "terminal.integrated.shellArgs.windows" : ["/K","C:\\Program Files\\Cmder\\vendor\\init.bat"]
+    "terminal.integrated.shellArgs.windows": [
+        "/K",
+        "C:\\Program Files\\Cmder\\vendor\\init.bat"
+    ],
+    "editor.snippetSuggestions": "top",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
