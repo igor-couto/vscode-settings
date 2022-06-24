@@ -6,10 +6,9 @@
     "workbench.tree.indent": 20,
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": false,
-    
+    "workbench.tree.renderIndentGuides": "none",
     "material-icon-theme.folders.theme": "classic",
     "material-icon-theme.folders.color": "#FBC02D",
-
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.fontWeight": "500",
@@ -17,62 +16,81 @@
     "editor.overviewRulerBorder": false,
     "editor.cursorSmoothCaretAnimation": true,
     "editor.cursorWidth": 2,
-    "editor.scrollbar.vertical": "hidden", 
+    "editor.scrollbar.vertical": "hidden",
     "editor.scrollbar.verticalScrollbarSize": 0,
     "editor.renderControlCharacters": false,
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
     "editor.detectIndentation": false,
-
     "breadcrumbs.enabled": false,
     "breadcrumbs.symbolPath": "on",
-
+    "editor.lineDecorationsWidth": 10,
     "files.restoreUndoStack": true,
-    
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorWidth": 2,
-
     "window.titleBarStyle": "custom",
     "window.titleSeparator": "  —  ",
     "window.title": "${dirty}${rootName}${separator}${activeEditorMedium}",
     "window.zoomLevel": 0,
-
     "zenMode.centerLayout": true,
     "zenMode.hideActivityBar": true,
-
     "javascript.updateImportsOnFileMove.enabled": "always",
-
     "[csharp]": {
-        "editor.renderIndentGuides": false
+        "editor.renderIndentGuides": false,
+        "editor.guides.indentation": false
     },
-
     "files.exclude": {
-        "**/obj":true,
-        "**/node_modules":true,
+        "**/bin": true,
+        "**/obj": true,
+        "**/node_modules": true,
         "**/.vs": true,
         "**/.git": true,
         "**/.svn": true,
         "**/.hg": true,
         "**/CVS": true,
-        "**/.DS_Store": true
+        "**/.DS_Store": true,
+        "**/.cs.meta": true
     },
-
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true
     },
-
     "explorer.decorations.colors": true,
     "explorer.decorations.badges": false,
-
+    "editor.snippetSuggestions": "top",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "gitlens.mode.active": "zen",
+    "omnisharp.enableDecompilationSupport": true,
+    "omnisharp.enableEditorConfigSupport": true,
+    "omnisharp.projectLoadTimeout": 30,
+    "editor.formatOnSave": true,
+    "angular.experimental-ivy": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "terminal.integrated.enablePersistentSessions": false,
     "terminal.external.windowsExec": "C:\\Program Files\\Cmder\\Cmder.exe",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\cmd.exe",
     "terminal.integrated.shellArgs.windows": [
         "/K",
         "C:\\Program Files\\Cmder\\vendor\\init.bat"
     ],
-    "editor.snippetSuggestions": "top",
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+    "terminal.explorerKind": "external",
+    "editor.largeFileOptimizations": false,
+    "json.schemas": [
+        {
+            "name": "vscode-expo-manifest",
+            "url": "file:///c%3A/Users/igor.freitas/AppData/Roaming/Code/User/globalStorage/bycedric.vscode-expo/manifest-45.0.0.json",
+            "fileMatch": [
+                "app.json",
+                "app.config.json"
+            ]
+        }
+    ],
+    "editor.bracketPairColorization.enabled": false,
+    "editor.unicodeHighlight.includeStrings": false,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "workbench.layoutControl.enabled": false
 }
