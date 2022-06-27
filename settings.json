@@ -16,6 +16,8 @@
     "editor.overviewRulerBorder": false,
     "editor.cursorSmoothCaretAnimation": true,
     "editor.cursorWidth": 2,
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "phase",
     "editor.scrollbar.vertical": "hidden",
     "editor.scrollbar.verticalScrollbarSize": 0,
     "editor.renderControlCharacters": false,
