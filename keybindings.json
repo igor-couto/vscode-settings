@@ -1,0 +1,17 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "alt+shift+r",
+        "command": "rust-analyzer.toggleInlayHints",
+        "when": "editorTextFocus && editorLangId == 'rust'"
+    },
+    {
+        "key": "alt+shift+e",
+        "command": "errorLens.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.terminal.toggleTerminal",
+    }
+]
