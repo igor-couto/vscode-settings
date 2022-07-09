@@ -35,7 +35,7 @@
     "window.titleSeparator": "  —  ",
     "window.title": "${dirty}${rootName}${separator}${activeEditorMedium}",
     "window.zoomLevel": 0,
-    "window.menuBarVisibility": "hidden",
+    "window.menuBarVisibility": "toggle",
     "zenMode.centerLayout": true,
     "zenMode.hideActivityBar": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
