@@ -95,5 +95,6 @@
     "editor.bracketPairColorization.enabled": false,
     "editor.unicodeHighlight.includeStrings": false,
     "editor.unicodeHighlight.nonBasicASCII": false,
-    "workbench.layoutControl.enabled": false
+    "workbench.layoutControl.enabled": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
 }
