@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Valenca",
+    "workbench.colorTheme": "Akaroa",
     "workbench.activityBar.visible": false,
     "workbench.sideBar.location": "right",
     "workbench.iconTheme": "material-icon-theme",
@@ -9,12 +9,12 @@
     "workbench.tree.renderIndentGuides": "none",
     "material-icon-theme.folders.theme": "classic",
     "material-icon-theme.folders.color": "#FBC02D",
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "FiraCode Nerd Font",
     "editor.fontLigatures": true,
     "editor.fontWeight": "500",
     "editor.mouseWheelZoom": true,
     "editor.overviewRulerBorder": false,
-    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorWidth": 2,
     "editor.cursorStyle": "block",
     "editor.cursorBlinking": "phase",
@@ -38,17 +38,10 @@
     "window.menuBarVisibility": "toggle",
     "zenMode.centerLayout": true,
     "zenMode.hideActivityBar": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "[csharp]": {
-        "editor.renderIndentGuides": false,
-        "editor.guides.indentation": false
-    },
     "files.exclude": {
         "**/bin": true,
         "**/obj": true,
         "**/node_modules": true,
-        "**/.vs": true,
-        "**/.git": true,
         "**/.svn": true,
         "**/.hg": true,
         "**/CVS": true,
@@ -68,33 +61,32 @@
     "omnisharp.enableDecompilationSupport": true,
     "omnisharp.enableEditorConfigSupport": true,
     "omnisharp.projectLoadTimeout": 30,
-    "editor.formatOnSave": true,
-    "angular.experimental-ivy": true,
+    "editor.formatOnSave": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "security.workspace.trust.untrustedFiles": "open",
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "terminal.integrated.enablePersistentSessions": false,
-    "terminal.external.windowsExec": "C:\\Program Files\\Cmder\\Cmder.exe",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\cmd.exe",
-    "terminal.integrated.shellArgs.windows": [
-        "/K",
-        "C:\\Program Files\\Cmder\\vendor\\init.bat"
-    ],
-    "terminal.explorerKind": "external",
-    "editor.largeFileOptimizations": false,
-    "json.schemas": [
-        {
-            "name": "vscode-expo-manifest",
-            "url": "file:///c%3A/Users/igor.freitas/AppData/Roaming/Code/User/globalStorage/bycedric.vscode-expo/manifest-45.0.0.json",
-            "fileMatch": [
-                "app.json",
-                "app.config.json"
-            ]
-        }
-    ],
     "editor.bracketPairColorization.enabled": false,
     "editor.unicodeHighlight.includeStrings": false,
     "editor.unicodeHighlight.nonBasicASCII": false,
     "workbench.layoutControl.enabled": false,
     "workbench.settings.enableNaturalLanguageSearch": false,
+    "window.commandCenter": false,
+    "files.dialog.homePath": "C:\\src",
+    "workbench.localHistory.maxFileEntries": 100,
+    "terminal.integrated.fontFamily": "JetBrainsMonoNL Nerd Font Mono",
+    "files.associations": {
+        ".env*": "dotenv"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "keyword.other.dotenv",
+                "settings": {
+                    "foreground": "#FF000000"
+                }
+            }
+        ]
+    },
+    "json.indent": "4"
 }
