@@ -1,6 +1,5 @@
 {
     "workbench.colorTheme": "Akaroa",
-    "workbench.activityBar.visible": false,
     "workbench.sideBar.location": "right",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.tree.indent": 20,
@@ -88,5 +87,6 @@
             }
         ]
     },
-    "json.indent": "4"
+    "json.indent": "4",
+    "workbench.activityBar.location": "hidden"
 }
